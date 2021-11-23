@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        .header{
+            text-align: center;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px 30px;
+            border: solid 1px rgb(14, 13, 13);
+            width: 35%;
+        }
+
+        .container{
+            width: 80%;
+            margin: 10px auto;
+            border: solid 1px navy
+        }
+
+        .mid {
+            border: solid 2px green;
+            border-left: solid 3px green;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .mid form {
+            border: solid 1px green;
+            padding: 20px 0;
+      }
+
+      .input {
+             padding: 10px 10px;
+      }
+
+      .label {
+            display: inline-block;
+            width: 19%;
+      }
+
+      .green {
+             background: green;
+      }
+
+        footer{
+            padding: 10px;
+            margin-top: 20px;
+            color: white;
+            background: orangered;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="main">
+                <h1 class="header">Portfolio</h1>
+                <div  class="container">
+                    <div class="banner">
+                        <img src="./img/mufiport.jpg" alt="user"
+                        width="200px"
+                        height="200px">
+                    </div>
+                </div>
+        </div>
+
+        <div class="mid">
+            <div class="form">
+                <form >
+                    <div class="input">
+                        <div class="label">
+                            <label for="name">Name:</label>
+
+                        </div>
+                        <input type="text" name="name">
+                    </div>
+                    <div class="input">
+                        <div class="label">
+                            <label for="age">Age:</label>
+                        </div>
+                        <input type="text" name="age">
+                    </div>
+                    <div class="input">
+                        <div class="label">
+                            <label for="email">Email:</label>
+                        </div>
+                        <input type="text" name="email">
+                    </div>
+                    <div class="input">
+                        <div class="label">
+                            <label for="phone">Phone:</label>
+                        </div>
+                        <input type="text" name="phone">
+                    </div>
+                   
+
+                </form>
+                
+            </div>
+            <div class="js">
+                
+            </div>
+
+            <div class="green"></div>
+        </div>
+    
+        <footer>
+            <p>Mahfuzullah's Portfolio. Copyright &copy; 2021</p>
+        </footer>
+    
+</body>
+</html>
