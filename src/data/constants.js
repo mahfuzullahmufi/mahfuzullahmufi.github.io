@@ -4,7 +4,7 @@ import gadstoreImg from '../images/gadstore.png';
 import portfolioImg from '../images/porfolio.png';
 
 export const Bio = {
-  name: "Md. Mahfuzullah",
+  name: "Md. Mahfuzullah Mufi",
   roles: [
     "Full Stack Web Developer",
     "Programmer",
