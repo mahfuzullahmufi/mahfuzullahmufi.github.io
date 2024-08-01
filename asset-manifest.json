@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.acfcde74.js",
+    "main.js": "/static/js/main.986e9556.js",
     "static/media/gadstore.png": "/static/media/gadstore.28fb72f66142d235ccdd.png",
     "static/media/porfolio.png": "/static/media/porfolio.42264a5f74c7df15edd5.png",
     "static/media/Mufi Formal 2.0.jpg": "/static/media/Mufi Formal 2.0.573a48f641f1119bdfa4.jpg",
@@ -9,10 +9,10 @@
     "static/media/s1.png": "/static/media/s1.16cc1fe3ee3fe4385e31.png",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.acfcde74.js.map": "/static/js/main.acfcde74.js.map"
+    "main.986e9556.js.map": "/static/js/main.986e9556.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.acfcde74.js"
+    "static/js/main.986e9556.js"
   ]
 }
