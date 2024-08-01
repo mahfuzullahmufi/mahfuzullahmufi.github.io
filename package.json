@@ -1,7 +1,7 @@
 {
   "name": "mahfuzullah-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/mahfuzullahmufi/React-Portfolio",
+  "homepage": "https://mahfuzullahmufi.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

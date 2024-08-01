@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mahfuzullahmufi/React-Portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/mahfuzullahmufi/React-Portfolio/static/js/main.6340c85d.js",
-    "static/media/gadstore.png": "/mahfuzullahmufi/React-Portfolio/static/media/gadstore.28fb72f66142d235ccdd.png",
-    "static/media/porfolio.png": "/mahfuzullahmufi/React-Portfolio/static/media/porfolio.42264a5f74c7df15edd5.png",
-    "static/media/Mufi Formal 2.0.jpg": "/mahfuzullahmufi/React-Portfolio/static/media/Mufi Formal 2.0.573a48f641f1119bdfa4.jpg",
-    "static/media/s2.png": "/mahfuzullahmufi/React-Portfolio/static/media/s2.db26e83d3a1afaec6f16.png",
-    "static/media/s1.png": "/mahfuzullahmufi/React-Portfolio/static/media/s1.16cc1fe3ee3fe4385e31.png",
-    "index.html": "/mahfuzullahmufi/React-Portfolio/index.html",
-    "main.bf538fe7.css.map": "/mahfuzullahmufi/React-Portfolio/static/css/main.bf538fe7.css.map",
-    "main.6340c85d.js.map": "/mahfuzullahmufi/React-Portfolio/static/js/main.6340c85d.js.map"
+    "main.css": "/static/css/main.bf538fe7.css",
+    "main.js": "/static/js/main.acfcde74.js",
+    "static/media/gadstore.png": "/static/media/gadstore.28fb72f66142d235ccdd.png",
+    "static/media/porfolio.png": "/static/media/porfolio.42264a5f74c7df15edd5.png",
+    "static/media/Mufi Formal 2.0.jpg": "/static/media/Mufi Formal 2.0.573a48f641f1119bdfa4.jpg",
+    "static/media/s2.png": "/static/media/s2.db26e83d3a1afaec6f16.png",
+    "static/media/s1.png": "/static/media/s1.16cc1fe3ee3fe4385e31.png",
+    "index.html": "/index.html",
+    "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
+    "main.acfcde74.js.map": "/static/js/main.acfcde74.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.6340c85d.js"
+    "static/js/main.acfcde74.js"
   ]
 }
