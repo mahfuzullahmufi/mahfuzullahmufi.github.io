@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.9e3cc707.js",
+    "main.js": "/static/js/main.c28aae71.js",
+    "static/media/billonweb.png": "/static/media/billonweb.c174a81dc13eb84d2a4a.png",
+    "static/media/wurth.png": "/static/media/wurth.a14df3d589da26b4be01.png",
     "static/media/gadstore.png": "/static/media/gadstore.28fb72f66142d235ccdd.png",
     "static/media/porfolio.png": "/static/media/porfolio.42264a5f74c7df15edd5.png",
     "static/media/Mufi Formal 2.0.jpg": "/static/media/Mufi Formal 2.0.573a48f641f1119bdfa4.jpg",
     "static/media/s2.png": "/static/media/s2.db26e83d3a1afaec6f16.png",
+    "static/media/MiscBill.png": "/static/media/MiscBill.eb126f064216a98ca6e5.png",
     "static/media/s1.png": "/static/media/s1.16cc1fe3ee3fe4385e31.png",
-    "static/media/InfoManagement.png": "/static/media/InfoManagement.827908f401ba1b8191e2.png",
+    "static/media/InfoM.png": "/static/media/InfoM.5f2dba9c5b169518d3bc.png",
+    "static/media/clics.png": "/static/media/clics.77da87b154a56189faca.png",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.9e3cc707.js.map": "/static/js/main.9e3cc707.js.map"
+    "main.c28aae71.js.map": "/static/js/main.c28aae71.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.9e3cc707.js"
+    "static/js/main.c28aae71.js"
   ]
 }
