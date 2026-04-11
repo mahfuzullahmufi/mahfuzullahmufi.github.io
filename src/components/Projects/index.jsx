@@ -2,10 +2,11 @@ import React from 'react'
 import { useState } from 'react'
 import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
-import { projects } from '../../data/constants'
+import { usePortfolio } from '../../context/PortfolioContext'
 
 
 const Projects = ({openModal,setOpenModal}) => {
+  const { projects } = usePortfolio();
   const [toggle, setToggle] = useState('all');
   return (
     <Container id="projects">
@@ -16,35 +17,35 @@ const Projects = ({openModal,setOpenModal}) => {
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton $active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
             :
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
           {toggle === 'personal project' ?
-            <ToggleButton active value="personal project" onClick={() => setToggle('personal project')}>PERSONAL PROJECT'S</ToggleButton>
+            <ToggleButton $active value="personal project" onClick={() => setToggle('personal project')}>PERSONAL PROJECT'S</ToggleButton>
             :
             <ToggleButton value="personal project" onClick={() => setToggle('personal project')}>PERSONAL PROJECT'S</ToggleButton>
           }
           <Divider />
           {toggle === 'professional project' ?
-            <ToggleButton active value="professional project" onClick={() => setToggle('professional project')}>PROFESSIONAL PROJECT'S</ToggleButton>
+            <ToggleButton $active value="professional project" onClick={() => setToggle('professional project')}>PROFESSIONAL PROJECT'S</ToggleButton>
             :
             <ToggleButton value="professional project" onClick={() => setToggle('professional project')}>PROFESSIONAL PROJECT'S</ToggleButton>
           }
           <Divider />
           {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('research paper')}>REASEARCH PAPERS</ToggleButton>
+            <ToggleButton $active value="machine learning" onClick={() => setToggle('research paper')}>REASEARCH PAPERS</ToggleButton>
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('research paper')}>REASEARCH PAPERS</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
-          {toggle === 'all' && projects
+          {toggle === 'all' && (projects || [])
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
-          {projects
+          {(projects || [])
             .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>

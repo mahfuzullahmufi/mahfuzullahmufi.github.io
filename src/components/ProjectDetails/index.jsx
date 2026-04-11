@@ -160,13 +160,13 @@ const Button = styled.a`
   padding: 12px 16px;
   border-radius: 8px;
   background-color: ${({ theme }) => theme.primary};
-  ${({ dull, theme }) =>
-    dull &&
+  ${({ $dull, theme }) =>
+    $dull &&
     `
         background-color: ${theme.bgLight};
         color: ${theme.text_secondary};
         &:hover {
-            background-color: ${({ theme }) => theme.bg + 99};
+            background-color: ${theme.bg + 99};
         }
     `}
   cursor: pointer;
@@ -236,7 +236,7 @@ const index = ({ openModal, setOpenModal }) => {
           )}
           <ButtonGroup>
             {project?.github && (
-              <Button href={project.github} target="_blank">
+              <Button $dull href={project.github} target="_blank">
                 View Code
               </Button>
             )}

@@ -1,0 +1,305 @@
+{
+  "bio": {
+    "name": "Md. Mahfuzullah Mufi",
+    "roles": [
+      "Full Stack Web Developer",
+      "Programmer"
+    ],
+    "description": "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "github": "https://github.com/mahfuzullahmufi",
+    "resume": "https://drive.google.com/file/d/1TLYg-U8x4o7sSHo_1e2m6NFjnkL5w04x/view?usp=drivesdk",
+    "linkedin": "https://www.linkedin.com/in/mahfuzullah/",
+    "twitter": "",
+    "insta": "",
+    "facebook": "https://www.facebook.com/mahfuzullah.mufi.1?mibextid=ZbWKwL"
+  },
+  "skills": [
+    {
+      "title": "Frontend",
+      "skills": [
+        {
+          "name": "React Js",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+        },
+        {
+          "name": "TypeScript",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+        },
+        {
+          "name": "Angular",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg"
+        },
+        {
+          "name": "HTML",
+          "image": "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+        },
+        {
+          "name": "CSS",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"
+        },
+        {
+          "name": "JavaScript",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+        },
+        {
+          "name": "Bootstrap",
+          "image": "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+        },
+        {
+          "name": "Blazor",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Blazor.png/900px-Blazor.png"
+        }
+      ]
+    },
+    {
+      "title": "Backend",
+      "skills": [
+        {
+          "name": "Asp.Net Core",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/768px-.NET_Core_Logo.svg.png"
+        },
+        {
+          "name": "Python",
+          "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+        },
+        {
+          "name": "Ms SQL",
+          "image": "https://logowik.com/content/uploads/images/microsoft-sql-server4529.jpg"
+        },
+        {
+          "name": "MongoDB",
+          "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+        },
+        {
+          "name": "Oracle",
+          "image": "https://logos-world.net/wp-content/uploads/2020/09/Oracle-Logo-700x394.png"
+        },
+        {
+          "name": "Azure",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+        }
+      ]
+    },
+    {
+      "title": "Others",
+      "skills": [
+        {
+          "name": "Git",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+        },
+        {
+          "name": "GitHub",
+          "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+        },
+        {
+          "name": "Docker",
+          "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+        },
+        {
+          "name": "Visual Studio",
+          "image": "https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg"
+        },
+        {
+          "name": "VS Code",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png"
+        },
+        {
+          "name": "Postman",
+          "image": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+        },
+        {
+          "name": "Jira",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg"
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 0,
+      "img": "https://brainstation-23.com/wp-content/uploads/2019/02/BS-Logo-Blue_Hr.svg",
+      "role": "Associate Software Engineer",
+      "company": "Brain Station-23",
+      "date": "Aug 2023 - Present",
+      "desc": "I am currently employed as a Full-Stack Developer, proficient in Angular, ASP.NET Core Web API, and ASP.NET Core MVC. Presently, I am actively engaged in a NopCommerce project, utilizing MS SQL as the database. Previously, I have worked on Metlife projects.",
+      "skills": [
+        "Asp.Net Core Web Api",
+        "Asp.Net Core MVC",
+        "Angular",
+        "Ms Sql",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "doc": ""
+    },
+    {
+      "id": 1,
+      "img": "",
+      "role": "Junior Software Engineer",
+      "company": "Infonet Associates",
+      "date": "Oct 2022 - July 2023",
+      "desc": "Developed billing software for BPDB as a Full-Stack Developer using Angular, ASP.NET Core Web API, Mediator, CQRS, Dapper ORM, and Oracle Database.",
+      "skills": [
+        "Asp.Net Core Web Api",
+        "Angular",
+        "Oracle",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "doc": ""
+    },
+    {
+      "id": 2,
+      "img": "",
+      "role": "Software Engineer Intern",
+      "company": "Codemen Solution Inc.",
+      "date": "June 2022 - Sept 2022",
+      "desc": "Worked as a backend developer in ASP.NET Core Web API, utilizing Mediator and CQRS design patterns, with MongoDB as the database.",
+      "skills": [
+        "Asp.Net Core Web Api",
+        "MongoDB",
+        "Ms Sql"
+      ],
+      "doc": ""
+    }
+  ],
+  "education": [
+    {
+      "id": 0,
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Daffodil_International_University_logo.svg/1200px-Daffodil_International_University_logo.svg.png",
+      "school": "Daffodil International University",
+      "date": "Jan 2018 - Dec 2022",
+      "grade": "3.46 CGPA",
+      "desc": "",
+      "degree": "BSc In Computer Science and Engineering"
+    },
+    {
+      "id": 1,
+      "img": "",
+      "school": "Ishwarganj D. S. Kamil Madrasah",
+      "date": "2015 - 2017",
+      "grade": "4.25",
+      "desc": "",
+      "degree": "Higher Secondary School Certificate (Alim)"
+    },
+    {
+      "id": 2,
+      "img": "",
+      "school": "Ishwarganj D. S. Kamil Madrasah",
+      "date": "2013 - 2015",
+      "grade": "5.00",
+      "desc": "",
+      "degree": "Secondary School Certificate (Dakhil)"
+    }
+  ],
+  "projects": [
+    {
+      "id": 0,
+      "title": "React-Portfolio",
+      "date": "December 2023 - Present",
+      "description": "Personal portfolio using React.",
+      "image": "/images/projects/porfolio.png",
+      "tags": ["React Js", "JavaScript", "TypeScript", "HTML", "CSS"],
+      "category": "personal project",
+      "github": "https://github.com/mahfuzullahmufi/React-Portfolio.git",
+      "webapp": "https://mahfuzullahmufi.github.io/",
+      "member": []
+    },
+    {
+      "id": 1,
+      "title": "Information Managment",
+      "date": "January 2023 - August 2024",
+      "description": "Implemented a full user management system with dynamic role-based menu handling and multi-language selection via checkboxes. Utilised Angular DataTable for data presentation, enabled export to PDF and Excel formats with the Nebular theme.",
+      "image": "/images/projects/InfoM.png",
+      "tags": ["Asp.Net", "Angular", "Ms Sql", "JavaScript", "TypeScript", "Entity FramWork", "Dapper"],
+      "category": "personal project",
+      "github": "https://github.com/mahfuzullahmufi/InformationManagment",
+      "webapp": "",
+      "member": []
+    },
+    {
+      "id": 2,
+      "title": "GadStore",
+      "date": "April 2024 - Present",
+      "description": "A dynamic E-commerce solution website for buying, selling, and exchanging smartphone, laptop, gadgets with a user-friendly interface and digital payment system.",
+      "image": "/images/projects/gadstore.png",
+      "tags": ["Asp.Net Core MVC", "Ms Sql", "JavaScript", "Entity FrameWork", "e-commerce"],
+      "category": "personal project",
+      "github": "",
+      "webapp": "https://gadstorebd.com/",
+      "member": []
+    },
+    {
+      "id": 3,
+      "title": "BillOnWeb",
+      "date": "September 2022 - July 2023",
+      "description": "Generated customer billing papers and BPDB official billing documents.",
+      "image": "/images/projects/billonweb.png",
+      "tags": ["Asp.net Web API", "Angular", "TypeScript", "Oracle", "Stored Procedure", "Dapper"],
+      "category": "professional project",
+      "github": "",
+      "webapp": "https://billonweb.bpdb.gov.bd/",
+      "member": []
+    },
+    {
+      "id": 4,
+      "title": "Miscellaneous-Billing",
+      "date": "Dec 2022 - Jul 2023",
+      "description": "Integrated with the BPDB database to retrieve and manipulate data, enabling the generation of billing documents. Prepared detailed customer arrears reports in both PDF and Excel formats.",
+      "image": "/images/projects/MiscBill.png",
+      "tags": ["Asp.net Web API", "MediatR", "CQRS", "Angular", "TypeScript", "Oracle", "Stored Procedure", "Dapper"],
+      "category": "professional project",
+      "github": "",
+      "webapp": "http://27.147.216.162/startup",
+      "member": []
+    },
+    {
+      "id": 5,
+      "title": "CLiCS",
+      "date": "August 2022 - December 2022",
+      "description": "Insurance policy Claims project for Metlife. Unit tests and implemented the insurance claim verification feature.",
+      "image": "/images/projects/clics.png",
+      "tags": ["Asp.net Web API", "Unit Testing", "Angular", "TypeScript", "MS SQL", "Stored Procedure", "EF Core"],
+      "category": "professional project",
+      "github": "",
+      "webapp": "https://eclaims.metlife.com.bd/public/online/claim-submission",
+      "member": []
+    },
+    {
+      "id": 6,
+      "title": "Wurth-eShop",
+      "date": "January 2024 - Present",
+      "description": "E-commerce Website based on nopCommerce. Developed Store Locator, OPC, and Payment plugins, while customising the theme to enhance a nopCommerce project. Deployed on VM.",
+      "image": "/images/projects/wurth.png",
+      "tags": ["Asp.Net Core MVC", "MS SQL", "JavaScript", "jQuery", "Entity FrameWork", "e-commerce"],
+      "category": "professional project",
+      "github": "",
+      "webapp": "https://eshop.wurth.rs/",
+      "member": []
+    },
+    {
+      "id": 7,
+      "title": "A Computer Vision Based Food Recognition Approach for Controlling Inflammation to Enhance Quality of Life of Psoriasis Patients",
+      "date": "January 2021 - July 2021",
+      "description": "Recognized inflammatory food using Deep Learning.",
+      "image": "/images/projects/s1.png",
+      "tags": ["Computer vision", "Deep Learning", "Transfer learning", "Food Recognition", "Psoriasis"],
+      "category": "research paper",
+      "github": "",
+      "webapp": "https://ieeexplore.ieee.org/document/9491783/keywords#keywords",
+      "member": []
+    },
+    {
+      "id": 8,
+      "title": "A Deep Multi-scale Feature Fusion Approach for Early Recognition of Jute Diseases and Pests",
+      "date": "August 2021 - April 2022",
+      "description": "Finding jute diseases from jute leaf using Deep Learning.",
+      "image": "/images/projects/s2.png",
+      "tags": ["Computer vision", "Deep neural networks", "Transfer learning", "Feature fusion", "Leaf disease recognition"],
+      "category": "research paper",
+      "github": "",
+      "webapp": "https://link.springer.com/chapter/10.1007/978-981-19-1012-8_37",
+      "member": []
+    }
+  ]
+}

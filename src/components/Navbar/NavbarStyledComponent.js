@@ -135,11 +135,11 @@ export const MobileMenu = styled.div`
     padding: 12px 40px 24px 40px;
     background: ${({ theme }) => theme.card_light+99};
     transition: all 0.6s ease-in-out;
-    transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
+    transform: ${({ $isOpen }) => ($isOpen ? 'translateY(0)' : 'translateY(-100%)')};
     border-radius: 0 0 20px 20px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-    z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
+    opacity: ${({ $isOpen }) => ($isOpen ? '100%' : '0')};
+    z-index: ${({ $isOpen }) => ($isOpen ? '1000' : '-1000')};
 
 `
 

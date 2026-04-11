@@ -3,7 +3,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { Bio } from '../../data/constants';
+import { usePortfolio } from '../../context/PortfolioContext';
 import { WhatsApp } from '@mui/icons-material';
 
 const FooterContainer = styled.div`
@@ -86,6 +86,7 @@ const Copyright = styled.p`
 `;
 
 function Footer() {
+  const { bio } = usePortfolio();
   return (
     <FooterContainer>
       <FooterWrapper>
@@ -98,9 +99,9 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={bio?.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={bio?.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={bio?.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Mahfuzullah. All rights reserved.
